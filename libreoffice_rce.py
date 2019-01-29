@@ -6,7 +6,7 @@ Unauthenticated RCE LibreOffice/OpenOffice with UNO API
 
 This code represents a small proof of concept of an unauthenticted remote code execution using
 the Apache OpenOffice UNO API (https://www.openoffice.org/udk/). This code has been tested
-against LibreOffice Version: 6.0.3.2 on a Ubuntu Mate 18.04 with kernel 4.15.0-34-generic.
+against LibreOffice Version: 6.1.1.2 on a Ubuntu Mate 18.04 with kernel 4.15.0-34-generic.
 
 For this PoC to work the target machine needs to run the ServiceManager using an external 
 interface. The following command was used to test this PoC:
