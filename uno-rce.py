@@ -22,7 +22,6 @@ import uno
 from com.sun.star.system import XSystemShellExecute
 import argparse
 
-
 parser = argparse.ArgumentParser()
 parser.add_argument('--host', help='host to connect to', dest='host', required=True)
 parser.add_argument('--port', help='port to connect to', dest='port', required=True)
